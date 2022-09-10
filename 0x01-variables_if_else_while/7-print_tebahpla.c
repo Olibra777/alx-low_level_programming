@@ -2,14 +2,15 @@
 /**
  * main - entry point
  *
- * Description: to ptint alphabet in lower case
+ * Description: to print alphabet in lowercase
+ * from reverse side
  * Return: 0
  */
 int main(void)
 {
 	int c;
 
-	for (c = 'a'; c <= 'z'; c++)
+	for (c = 'z'; c >= 'a'; c--)
 	{
 		putchar(c);
 	}

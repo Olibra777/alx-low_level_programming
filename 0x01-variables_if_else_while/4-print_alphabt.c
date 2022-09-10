@@ -2,7 +2,7 @@
 /**
  * main - entry point
  *
- * Description: to ptint alphabet in lower case
+ * Description: to print alphabet in lowercase
  * Return: 0
  */
 int main(void)
@@ -11,7 +11,13 @@ int main(void)
 
 	for (c = 'a'; c <= 'z'; c++)
 	{
-		putchar(c);
+		if (c != 'e' && c != 'q')
+		{
+			putchar(c);
+		}
+		else
+		{
+		}
 	}
 	putchar('\n');
 	return (0);
