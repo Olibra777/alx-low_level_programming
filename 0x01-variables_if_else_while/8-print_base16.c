@@ -14,10 +14,12 @@ int main(void)
 	while (x <= '9')
 	{
 		putchar(x);
-		x++
+		x++;
 	}
 	for (d = 'a'; d <= 'f'; d++)
 	{
-		putchar('\n');
-		return (0);
+		putchar(d);
 	}
+	putchar('\n');
+	return (0);
+}
