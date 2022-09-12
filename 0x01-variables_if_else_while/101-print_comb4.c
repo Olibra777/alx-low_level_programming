@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <unistd.h>
+
 /**
  * main - my entry point
  * 
@@ -24,6 +25,7 @@ int main(void)
 					putchar(c);
 					putchar(i);
 					putchar(a);
+
 					if (c != '7')
 					{
 						putchar(',');
