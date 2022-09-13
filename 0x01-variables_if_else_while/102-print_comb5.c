@@ -2,8 +2,8 @@
 #include <unistd.h>
 /**
  * main - Entry point
- * Description: prints all possible combination of 2-digit numbers
- * Return: Always 0 (success)
+ * Description: prints all possible combination of two_digit numbers
+ * Return: 0
  */
 int main(void)
 {
