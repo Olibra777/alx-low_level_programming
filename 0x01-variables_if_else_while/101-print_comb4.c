@@ -1,27 +1,25 @@
 #include <stdio.h>
 
 /**
- * main - my entry point
- * 
- * Description: code to print combination
- * of single digit
- * Return: 0
+ * main - Prints 3 combination of numbers
+ *
+ * Return: Always (Success)
  */
 int main(void)
 {
-	int c, i, a;
+	int c, i, j;
 
 	for (c = '0'; c <= '9'; c++)
 	{
 		for (i = '0'; i <= '9'; i++)
 		{
-			for (a = '0'; a <= '9'; a++)
+			for (j = '0'; j <= '9'; j++)
 			{
-				if (c < i && i < a)
+				if (c < i && i < j)
 				{
 					putchar(c);
 					putchar(i);
-					putchar(a);
+					putchar(j);
 
 					if (c != '7')
 					{
