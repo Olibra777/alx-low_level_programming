@@ -1,13 +1,13 @@
 #include "main.h"
 /**
- * print_alphabet - entry point
+ * prints_alphabet - entry point func
  *
- * Description: prints the alphabet, in lowercase
+ * Description: prints the alpabet, in lower case
  * Return: 0
  */
 void print_alphabet(void)
 {
-	char ch= 'a';
+	char ch = 'a';
 
 	while (ch <= 'z')
 	{
