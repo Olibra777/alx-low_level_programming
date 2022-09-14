@@ -5,13 +5,14 @@
  * Description: prints the alpabet, in lower case
  * Return: 0
  */
+
 void print_alphabet(void)
 {
-	char ch = 'a';
+	char c = 'a';
 
-	while (ch <= 'z')
+	while (c <= 'z')
 	{
-		_putchar(ch);
+		_putchar(c);
 		ch++;
 	}
 	_putchar('\n');
