@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * prints_alphabet - entry point func
  *
@@ -14,6 +15,8 @@ void print_alphabet(void)
 	{
 		_putchar(c);
 		ch++;
+
 	}
 	_putchar('\n');
+
 }
